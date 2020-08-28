@@ -1481,7 +1481,7 @@
 #define EEPROM_CHITCHAT       // Give feedback on EEPROM commands. Disable to save PROGMEM.
 #define EEPROM_BOOT_SILENT    // Keep M503 quiet and only give errors during first load
 #if ENABLED(EEPROM_SETTINGS)
-  #define I2C_EEPROM //I2C external eeprom module AT24C256
+  //#define I2C_EEPROM //I2C external eeprom module AT24C256
   //#define FLASH_EEPROM_EMULATION
   //#define EEPROM_AUTO_INIT  // Init EEPROM automatically on any errors.
 #endif

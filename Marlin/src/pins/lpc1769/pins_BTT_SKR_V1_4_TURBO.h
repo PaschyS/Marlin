@@ -25,6 +25,16 @@
 #define SKR_HAS_LPC1769
 
 //
+// EEPROM and external i2c eeprom settings
+// By PaschyS
+#define FLASH_EEPROM_EMULATION
+//#define SDCARD_EEPROM_EMULATION
+
+#define I2C_EEPROM
+#define E2END 0x7FFF // EEPROM end address AT24C256 (32kB)
+// # define E2END 0xFFFF // 64Kb
+
+//
 // Include SKR 1.4 pins
 //
 #include "../lpc1768/pins_BTT_SKR_V1_4.h"
