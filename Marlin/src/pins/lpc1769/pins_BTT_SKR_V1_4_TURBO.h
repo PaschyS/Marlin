@@ -27,11 +27,11 @@
 //
 // EEPROM and external i2c eeprom settings
 // By PaschyS
-#define FLASH_EEPROM_EMULATION
+//#define FLASH_EEPROM_EMULATION
 //#define SDCARD_EEPROM_EMULATION
 
-#define I2C_EEPROM
-#define E2END 0x7FFF // EEPROM end address AT24C256 (32kB)
+//#define I2C_EEPROM
+//#define E2END 0x7FFF // EEPROM end address AT24C256 (32kB)
 // # define E2END 0xFFFF // 64Kb
 
 //
