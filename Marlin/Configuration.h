@@ -761,9 +761,11 @@
  * Default Axis Steps Per Unit (steps/mm)
  * Override with M92
  * E3D Hemera Steps 397
+ * TR8X8 = 400
+ * TR8x2 = 1600
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 397 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 1600, 397 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -810,7 +812,7 @@
  * When changing speed and direction, if the difference is less than the
  * value set here, it may happen instantaneously.
  */
-//#define CLASSIC_JERK
+#define CLASSIC_JERK
 #if ENABLED(CLASSIC_JERK)
   #define DEFAULT_XJERK 10.0
   #define DEFAULT_YJERK 10.0
