@@ -756,7 +756,7 @@
  * TR8x2 = 1600
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 1600, 397 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 397 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1297,7 +1297,7 @@
 #if EITHER(AUTO_BED_LEVELING_LINEAR, AUTO_BED_LEVELING_BILINEAR)
 
   // Set the number of grid points per dimension.
-  #define GRID_MAX_POINTS_X 10
+  #define GRID_MAX_POINTS_X 7
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
   // Probe along the Y axis, advancing X after each column
