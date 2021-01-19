@@ -866,7 +866,7 @@
  *      - normally-closed switches to GND and D32.
  *      - normally-open switches to 5V and D32.
  */
-#define Z_MIN_PROBE_PIN PC6 // Pin 32 is the RAMPS default
+#define Z_MIN_PROBE_PIN PC6 // Pin PC6 zmin instead zmax/probe
 
 /**
  * Probe Type
