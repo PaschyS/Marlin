@@ -742,9 +742,11 @@
 /**
  * Default Axis Steps Per Unit (steps/mm)
  * Override with M92
+ * Titan Extruder with V6 Hotend
+ * e3d-online.dozuki.com/Guide/Titan+Marlin+Configuration/35
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 } //Ender5 Rev1 
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 837 } //Ender5 Rev1 
 
 /**
  * Default Max Feed Rate (mm/s)
